@@ -8,10 +8,9 @@
 
 
 var myaudio = document.getElementById("my_audio");
-// $(document).on('click', function () {
+$(document).on('click', function () {
     myaudio.play();
-    console.log('Shaadi me zaroor aana');
-// });
+});
 
 
 // Set the date we're counting down to
